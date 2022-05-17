@@ -1,6 +1,6 @@
 package be.technifutur;
 
-public class VaisseauAncetre {
+public  abstract  class VaisseauAncetre {
 
 
 
@@ -78,6 +78,8 @@ public class VaisseauAncetre {
 
             return VaisseauAncetre.nbEnVol;
         }
+
+        public abstract void afficheCamp();
     }
 
 
