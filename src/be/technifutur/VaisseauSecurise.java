@@ -53,14 +53,14 @@ public class VaisseauSecurise {
             ++nbEnVol;
         } else {
             System.out.println("Le vaisseau " + this.nom + " est déjà en vol");
-            this.enVol = false;
+
         }
 
     }
 
     public void atterir() {
         boolean enVol;
-        if (this.enVol = true) {
+        if (this.enVol) {
             System.out.println("Le vaisseau " + this.nom + " attérit");
             enVol = false;
             --nbEnVol;

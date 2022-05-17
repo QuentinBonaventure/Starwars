@@ -63,13 +63,13 @@ public  abstract  class VaisseauAncetre {
 
         public void atterir() {
             boolean enVol;
-            if (this.enVol == true) {
+            if (this.enVol) {
                 System.out.println("Le vaisseau " + this.nom + " attérit");
                 enVol = false;
                 --nbEnVol;
             } else {
                 System.out.println("Le vaisseau" + this.nom + " est déjà au sol");
-                enVol = true;
+                enVol= true;
             }
 
         }

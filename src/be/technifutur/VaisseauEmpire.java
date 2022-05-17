@@ -10,7 +10,8 @@ public class VaisseauEmpire extends VaisseauAncetre {
         System.out.println("Je suis un vaisseau représentant l'empire ");
     }
 
-    public void messageDarkVador(String message){
-        System.out.println("Es tu mon père ?");
+    public void messageDarkVador(String message) {
+        System.out.println(message);
+        System.out.println("es tu mon pere ?");
     }
 }

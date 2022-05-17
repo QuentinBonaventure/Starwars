@@ -1,6 +1,6 @@
 package be.technifutur;
 
-public class VaisseauRebel extends VaisseauAncetre{
+public class VaisseauRebel extends VaisseauAncetre {
 
     public VaisseauRebel(String nom) {
         super(nom);
@@ -11,7 +11,7 @@ public class VaisseauRebel extends VaisseauAncetre{
         System.out.println("je suis un rebel");
     }
 
-    public void messageR2D2(String message){
+    public void messageR2D2(String message) {
         System.out.println("Biiiipppp biiiiip");
     }
 }
